@@ -19,10 +19,10 @@ a {
 }
 
 img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid purple;
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    border: 5px solid rgb(0, 0, 0);
 }
 
 .center {
@@ -55,4 +55,3 @@ footer p {
 nav a:hover {
     color: white;
 }
-
