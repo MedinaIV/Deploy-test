@@ -15,7 +15,7 @@ ul {
 
 a {
     color: rgb(156, 25, 135);
-    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 img {
@@ -53,5 +53,5 @@ footer p {
 }
 
 nav a:hover {
-    color: white;
+    color: rgb(255, 0, 191);
 }
