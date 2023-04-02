@@ -17,6 +17,7 @@ ul {
 a {
     color: rgb(156, 25, 135);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
 }
 
 img {
@@ -55,4 +56,31 @@ footer p {
 
 nav a:hover {
     color: rgb(255, 0, 191);
+}
+ul {
+    margin: 0;
+    padding:0;
+}
+ 
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid rgb(156, 25, 135); 
+    background: rgb(156, 25, 135);
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
 }
